@@ -18,12 +18,12 @@ int main()
     }
     else  if ((pezzo >30) && ( pezzo<=50))
     {
-            int scontouno = ((totale * 10)/ 100 );
+            int scontouno = totale - ((totale * 10)/ 100 );
             printf("prezzo scontato a: %i\n", scontouno);
     }
         else if ( pezzo > 50)
     {
-        int scontodue = ((totale * 15)/ 100 );
+        int scontodue = totale - ((totale * 15)/ 100 );
         printf("prezzo scontato a: %i\n", scontodue);
     }
         else 
