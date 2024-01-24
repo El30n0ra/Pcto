@@ -19,10 +19,11 @@ int main()
         {
             x = x+1;
         }
+    }
         if(numero == x)
          { 
             printf("il numero è primo");
          }
-    }
+
 return(0);
 }
