@@ -22,7 +22,11 @@ int main()
     }
         if(numero == x)
          { 
-            printf("il numero è primo");
+            printf("il numero è primo\n");
+         }
+         else
+         {
+            printf("il numero non è primo\n");
          }
 
 return(0);
